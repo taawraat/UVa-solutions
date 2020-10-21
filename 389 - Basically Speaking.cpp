@@ -11,14 +11,6 @@
 #define ll long long
 using namespace std;
 
-// returns lcm of x,y
-ll LCM(ll x, ll y){ return x * (y/__gcd(x,y)); }
-
-void test(){
-  char s[] = "tarasd";
-
-}
-
 int main(){
   string num;
   int base,convert;
