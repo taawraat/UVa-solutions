@@ -24,7 +24,7 @@ int main(){
 
         for(int j=i+1; ; j++)
         {
-          // check if next character a number or null
+          // check if next character space or null
           if((nums[j] == ' ' && nums[j+1] != ' ') || nums[j] == '\0')
           {
             // check if gcd of num1 and num2 is greater than max
