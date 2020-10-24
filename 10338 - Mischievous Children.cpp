@@ -39,7 +39,7 @@ int main(){
     int freq[28] = {};
 
     // initial ans = factorial of total length
-    unsigned long long ans = factOf[word.length()];
+    ull ans = factOf[word.length()];
 
     // counting frequency of each character
     for(int i = 0; word[i] != '\0'; i++)
