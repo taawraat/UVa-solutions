@@ -31,10 +31,8 @@ int main(){
         }
         int div = 1;
         FOR(low+1, n+1){
-            if(div <= r){
-                ans = (ans*i)/div;
-                div++;
-            }
+            if(div <= r)
+                ans = (ans*i)/div++;
             else
                 ans *= i;
         }
