@@ -26,5 +26,7 @@ int main(){
     // Start
     double p,n;
     while(inp(n) && inp(p))
+        // ans = e^(ln(p) / n)
+        // exp function takes x as parameter for e^(x)
         pf("%.0lf\n", exp(log(p)/n));
 }
