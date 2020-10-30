@@ -5,22 +5,28 @@ using ll = long long;
 #define pf printf
 #define sc scanf
 #define dbg(x,n) \
-    pf("debug %s: %lld\n", x,n);
-#define inp(t) scanf("%d", &t)
+    cout << "debug " << x << ": " << n << endl;
+#define inp(t) cin >> (t)
+#define out(t) cout << (t)
 #define FOR(n,x) for(ll i = n; i < (ll)x; i++)
 #define FOR2(N,X) for(int j = N; j < X; j++)
 #define wh(n) while(n--)
-// #define OJ \
-//     freopen("input.txt", "r", stdin); \
-//     freopen("output.txt", "w", stdout);
 using namespace std;
 
+void OJ(){
+    #ifndef ONLINE_JUDGE 
+        freopen("input.txt", "r", stdin); 
+        freopen("output.txt", "w", stdout);
+    #endif
+}
+
 int main(){
-    // OJ;
+    ios_base::sync_with_stdio(false); cin.tie(NULL);
+    // OJ();
 
     // Start
     int n,r;
-    while(inp(n)==1 && inp(r)==1){
+    while(inp(n) && inp(r)){
         if(!n && !r) break;
 
         ll ans = 1;
@@ -36,6 +42,7 @@ int main(){
             else
                 ans *= i;
         }
-        pf("%lld\n", ans);
+        out(ans);
+        out("\n");
     }
 }
