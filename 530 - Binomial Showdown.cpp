@@ -23,7 +23,7 @@ int main(){
     while(inp(n)==1 && inp(r)==1){
         if(!n && !r) break;
 
-        long long ans = 1;
+        ll ans = 1;
         int low = n-r;
         if(low < r){
             low = r;
