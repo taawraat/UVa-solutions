@@ -31,11 +31,14 @@ int main(){
 
         ll ans = 1;
         int low = n-r;
+
+        // declaring lower value
         if(low < r){
             low = r;
             r = n-r; 
         }
         int div = 1;
+
         FOR(low+1, n+1){
             if(div <= r)
                 ans = (ans*i)/div++;
