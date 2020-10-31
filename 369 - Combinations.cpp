@@ -25,7 +25,7 @@ int main(){
 
     // Start
      int n,r;
-    while(scanf(" %3d %6d",&n, &r) == 2){
+    while(scanf(" %3d %3d",&n, &r) == 2){
         if(!n && !r) break;
         cout << n << " things taken " << r << " at a time is ";
         ll ans = 1;
