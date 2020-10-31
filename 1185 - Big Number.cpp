@@ -28,6 +28,8 @@ int main(){
     wh(t){
         int num; inp(num);
         double ans = 0;
+
+        // ans = summation of log(1)+log(2)+....+log(n)
         FOR(2,num+1)
             ans += log10(i);
         
