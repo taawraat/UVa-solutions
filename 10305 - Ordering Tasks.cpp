@@ -71,7 +71,6 @@ int main(){
 
     while(inp(n) && inp(m)){
         if(!n && !m) break;
-
         graph.resize(n+1);
         visited.resize(n+1, false);
 
