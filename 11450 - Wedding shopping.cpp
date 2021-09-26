@@ -82,6 +82,11 @@ bool isGreater(double a, double b) { return a >= b + EPS; }
 
 bool isGreaterEqual(double a, double b) { return a > b - EPS; }
 
+/*
+    bottom up solution link of similar problem ---> https://pastebin.ubuntu.com/p/4Yz23mxp55/
+*/
+
+
 int money, garm;
 ll dp[210][30];
 vector<int> prices[30];
