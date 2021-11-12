@@ -98,7 +98,6 @@ void bruteforce(vector<ll>& v, vector<ll>& allLcm, int n){
                     d = v[l];
 
                     lcm = Lcm(a, Lcm(b, Lcm(c,d)));
-
                     allLcm.pb(lcm);
                 }
             }
